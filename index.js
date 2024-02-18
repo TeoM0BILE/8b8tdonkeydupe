@@ -35,11 +35,11 @@ function createBot(username) {
         findNearestDonkey();
       }, 1000);
     }
-     else if (message === 'tpa') {
+     else if (message === '*tpa') {
         bot.chat(`/tpa ${admins}`);
-    } else if (message === 'dismount') {
+    } else if (message === '*dismount') {
       bot.dismount();
-    } else if (message === 'kill') {
+    } else if (message === '*kill') {
       bot.chat('/kill');
     }
   });
