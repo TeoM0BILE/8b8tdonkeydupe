@@ -36,7 +36,7 @@ function createBot(username) {
       }, 1000);
     }
      else if (message === '*tpa') {
-        bot.chat(`/tpa ${admins}`);
+        bot.chat(`/tpa Teo_MOBILE`);
     } else if (message === '*dismount') {
       bot.dismount();
     } else if (message === '*kill') {
