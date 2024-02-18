@@ -21,10 +21,10 @@ function createBot(username) {
   bot.on('messagestr', (message) => {
     var pass = process.env.auth_password
     if (message.includes('Use the command /register <password> <password>.')) {
-      bot.chat(`/register ${pass} ${pass}`);
+      bot.chat(`/register ${process.env.pass} ${process.env.pass}`);
     }
     if (message.includes('Use the command /login <password>.')) {
-      bot.chat(`/login ${pass}`);
+      bot.chat(`/login ${process.env.pass}`);
     }
   });
 
