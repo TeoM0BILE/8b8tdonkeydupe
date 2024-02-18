@@ -1,9 +1,9 @@
 {
-    "admin": ["admin1", "admin2", "admin3"],
+    "admin": ["Teo_MOBILE,KingOfHao,minh"],
     "host": "anarchy.8b8t.me",
-    "username": "ExampleUsername",
+    "username": "Teo_PC",
     "version": "1.17.1",
     "port": 25565,
     "auth": "offline",
-    "auth_password": "ExamplePassword"
+    "auth_password": "teodeptrai"
 }
